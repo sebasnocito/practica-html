@@ -1,0 +1,83 @@
+        /* h1 {
+            color: blueviolet;
+        }
+        p {
+            color: #e14444;
+            background-color:rgb(231, 222, 224);
+            padding: 15px;
+            border: 5px solid powderblue;
+            /* margin-top: 40px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            margin-left: 10px; */
+            /*margin: 50px 50px 50px 50px; /*top, right, bottom, left */
+        /*    margin:auto;
+            text-align: center;
+        }/*
+        a:link {
+          color: chartreuse;
+          text-decoration: none;
+        }
+        a:visited {
+            color: #219ebc;
+            text-decoration: none; /* quita el subrayado del link */
+        /*}
+        /* a:hover {
+            color: #2110c1; /* sirve para agregar color cuando uno pasa el mouse por arriba del texto */
+            /* text-decoration: underline;
+        }/*
+        a :active {
+            color: blueviolet;
+            text-decoration: underline;   
+        }*/
+/* Esta seccion es para aplicar un boton a un link */
+    h1{
+        color: #0e547f;
+    }
+    a:link, a:visited {
+        background-color: rgb(37, 125, 198);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active {
+        background-color: chocolate;
+    }
+    table{
+        width: 100%;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 7px;
+        /*border-spacing: 5px; */
+        
+    }
+    caption{
+        color: #0e547f;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        line-height: 100px;
+    }
+    th{
+        color: blue;
+        background-color: bisque;
+    }
+    /* Table even hace cambios en los renglones pares y table odd en los renglones impares*/
+    tr:nth-child(even){
+        background-color: rgb(225, 226, 226);
+    }
+    tr:nth-child(odd){
+        background-color: rgb(180, 229, 238);
+    }
+    /*
+    td{
+        text-align: left;
+    }
+    th{
+        text-align: center;
+    }
+    */
+    
